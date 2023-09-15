@@ -15,7 +15,7 @@ private final EmployeeRepository employeeRepository;
 public EmployeeService(EmployeeRepository employeeRepository){
     this.employeeRepository= employeeRepository;
 }
-public List<Employee> getEmpoyees(){
+public List<Employee> getEmployees(){
     return employeeRepository.findAll();
     }
 
