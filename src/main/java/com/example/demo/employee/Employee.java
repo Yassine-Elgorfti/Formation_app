@@ -1,4 +1,5 @@
 package com.example.demo.employee;
 
-public class employee {
+public class Employee {
+
 }
